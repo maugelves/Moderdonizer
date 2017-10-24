@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Moderdonizer
-Description: Descripción
+Description: ¿Qué pasa chavalada? ¿Cansado de que tu texto esté manipulado por diccionario Godo? Aquí llegó la mandanguita del WordPress que pone tus artículos al ritmo del cancaneo de Moderdonia. Tú escribe tu artículo que del resto se encarga Moderdonizer.
 Version:     1.0
 Author:      Mauricio Gelves
 Author URI:  https://maugelves.com
