@@ -49,7 +49,7 @@ function fn_modernonize( $content ) {
 	$content = preg_replace('/sión(?=[ .!,?])/', 'sió', $content );
 
 	// Regla 3: "m" por "mm" (ver comentarios en función)
-	$content = preg_replace('/m(?=[aeiouáéíóú])/', 'mm', $content );
+	$content = preg_replace('/[aeiouáéíóú]m(?=[aeiouáéíóú])/', 'mm', $content );
 
 	return $content;
 
