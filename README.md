@@ -1,4 +1,5 @@
 # Moderdonizer
+![Bandera de WordPress Moderdonizer](https://demos.maugelves.com/moderdonizer/modernonizer-logo.png)
 ¿Qué pasa chavalada? ¿Cansado de que tu texto esté manipulado por diccionario Godo?
 Aquí llegó la mandanguita del **WordPress** que pone tus artículos al ritmo del cancaneo de Moderdonia.
 Tú escribe tu artículo que del resto se encarga **Moderdonizer**.
