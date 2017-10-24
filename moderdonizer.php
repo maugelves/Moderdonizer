@@ -12,6 +12,15 @@ Domain Path: /languages
 */
 
 
+/**
+ * Se aplica la función fn_modernonize a las cadenas de:
+ * - El contenido de cualquier Post Type
+ * - El título
+ *
+ * @param $content
+ *
+ * @return string
+ */
 function fn_moderdonizer_filter( $content ) {
 	return fn_modernonize( $content );
 }
@@ -25,7 +34,7 @@ add_filter( 'the_title', 'fn_moderdonizer_filter' );
  *
  * 1) Reemplazar "ción" por "ció" cuando después venga un espacio, punto, coma, interrogación o exclamación.
  * 2) Reemplazar "sión" por "sió" cuando después venga un espacio, punto, coma, interrogación o exclamación.
- * 2) Reemplazar la letra "m" por doble "mm" cuando la consonante se encuentre entre vocales.
+ * 3) Reemplazar la letra "m" por doble "mm" cuando la consonante se encuentre entre vocales.
  *
  * @author                      Mauricio Gelves
  * @params  $content    string  El contenido del post
